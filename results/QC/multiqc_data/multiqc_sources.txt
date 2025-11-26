@@ -1,0 +1,3 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	SRR36145750_1	/home/valli/Illumina_Project/results/QC/SRR36145750_1_fastqc.zip
+FastQC	all_sections	SRR36145750_2	/home/valli/Illumina_Project/results/QC/SRR36145750_2_fastqc.zip

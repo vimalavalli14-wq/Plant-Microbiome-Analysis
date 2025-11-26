@@ -1,0 +1,53 @@
+[2025-11-25 15:59:37,467] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/valli/miniconda3/envs/sra_env/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2025-11-25 15:59:37,467] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/valli/.multiqc_config.yaml
+[2025-11-25 15:59:37,467] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2025-11-25 15:59:37,467] multiqc                                            [DEBUG  ]  Command used: /home/valli/miniconda3/envs/sra_env/bin/multiqc -o ../results/QC ../results/QC
+[2025-11-25 15:59:37,467] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2025-11-25 15:59:37,467] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2025-11-25 15:59:37,467] multiqc                                            [DEBUG  ]  Command     : /home/valli/miniconda3/envs/sra_env/bin/multiqc -o ../results/QC ../results/QC
+[2025-11-25 15:59:37,467] multiqc                                            [DEBUG  ]  Working dir : /home/valli/Illumina_Project/scripts
+[2025-11-25 15:59:37,467] multiqc                                            [INFO   ]  Template    : default
+[2025-11-25 15:59:37,467] multiqc                                            [INFO   ]  Searching '../results/QC'
+[2025-11-25 15:59:37,468] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, peddy, methylQA, qualimap, preseq, quast, rseqc, busco, goleft_indexcov, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, slamdunk, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc, clusterflow
+[2025-11-25 15:59:37,468] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpV_jnAX
+[2025-11-25 15:59:38,232] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2025-11-25 15:59:38,235] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,239] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,241] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2025-11-25 15:59:38,243] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,255] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('../results/QC',)
+[2025-11-25 15:59:38,258] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,300] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,303] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,307] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('../results/QC',)
+[2025-11-25 15:59:38,318] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('../results/QC',)
+[2025-11-25 15:59:38,331] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,343] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,354] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,357] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,456] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,460] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('../results/QC',)
+[2025-11-25 15:59:38,471] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('../results/QC',)
+[2025-11-25 15:59:38,503] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,516] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,522] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,524] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('../results/QC',)
+[2025-11-25 15:59:38,527] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('../results/QC',)
+[2025-11-25 15:59:38,538] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,594] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2025-11-25 15:59:38,598] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,601] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,612] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,624] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,636] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,647] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('../results/QC',)
+[2025-11-25 15:59:38,659] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('../results/QC',)
+[2025-11-25 15:59:38,662] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:38,885] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports
+[2025-11-25 15:59:39,089] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('../results/QC',)
+[2025-11-25 15:59:39,090] multiqc                                            [INFO   ]  Report      : ../results/QC/multiqc_report.html
+[2025-11-25 15:59:39,091] multiqc                                            [INFO   ]  Data        : ../results/QC/multiqc_data
+[2025-11-25 15:59:39,091] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpV_jnAX/multiqc_data/multiqc_general_stats.txt' to '../results/QC/multiqc_data'
+[2025-11-25 15:59:39,091] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpV_jnAX/multiqc_data/multiqc_sources.txt' to '../results/QC/multiqc_data'
+[2025-11-25 15:59:39,091] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpV_jnAX/multiqc_data/multiqc_fastqc.txt' to '../results/QC/multiqc_data'
+[2025-11-25 15:59:39,194] multiqc                                            [INFO   ]  MultiQC complete
